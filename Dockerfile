@@ -12,6 +12,6 @@ RUN apk update \
 	&& apk del .build-deps
 
 COPY config/dnsmasq.conf /etc/dnsmasq.conf
-COPY config/lan.list /etc/lan.list
+COPY config/domains.list /etc/domains.list
 
-ENTRYPOINT ["webproc","--configuration-file","/etc/dnsmasq.conf","--configuration-file","/etc/lan.list","--","dnsmasq","--no-daemon"]
+ENTRYPOINT ["webproc","--configuration-file","/etc/dnsmasq.conf","--configuration-file","/etc/domains.list","--","dnsmasq","--no-daemon"]

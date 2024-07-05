@@ -1,0 +1,26 @@
+# place your custom entries here
+172.30.220.118 dns.nifc.gov	        dns
+
+
+10.10.100.137 traefik.nifc.gov	    traefik
+# 10.10.100.101 traefik.nifc.gov    traefik
+# 10.10.100.102 traefik.nifc.gov    traefik
+
+10.10.100.137 portainer.nifc.gov    portainer
+10.10.100.101 portainer.nifc.gov    portainer
+10.10.100.102 portainer.nifc.gov    portainer
+
+10.10.100.137 dnsmasq.nifc.gov	    dnsmasq
+10.10.100.101 dnsmasq.nifc.gov	    dnsmasq
+10.10.100.102 dnsmasq.nifc.gov	    dnsmasq
+
+10.10.100.137 consul.nifc.gov       consul
+10.10.100.101 consul.nifc.gov       consul
+10.10.100.102 consul.nifc.gov       consul
+
+10.10.100.137 wireguard.nifc.gov    wireguard
+10.10.100.101 wireguard.nifc.gov    wireguard
+10.10.100.102 wireguard.nifc.gov    wireguard
+
+
+10.10.100.137 test123.nifc.gov    test123
